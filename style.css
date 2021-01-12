@@ -1,17 +1,60 @@
-.film1 p{
 
-    float: left;
+body {
 
-}
-
-.film2 p{
-
-    float: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(235, 235, 235);
+    color: #7d7d7d;
 
 }
 
-.film3 p{
+.bloc1{
 
-    float: left;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.192);
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    border-radius: 1%;
+    flex-direction: column;
+    align-items: center;
+    
 
 }
+
+.tbl{
+
+
+    border-radius: 50%;
+    border: #7d7d7d2a solid 5px;
+    padding: 15px;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+
+
+}
+
+.p h1{
+
+    font-weight: bold;
+    color: rgba(221, 85, 85);
+    
+
+}
+
+.p p{
+
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    border-radius: 1%;
+}
+
+
+
+
