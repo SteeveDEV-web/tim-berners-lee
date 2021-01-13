@@ -9,16 +9,21 @@ body {
 
 .bloc1{
 
+    background-color: white;
+    width: 500px;
+    height: 500px;
     display: flex;
-    background-color: rgba(255, 255, 255, 0.192);
-    width: 450px;
-    height: 450px;
-    margin: auto;
-    padding: 20px;
-    text-align: center;
-    border-radius: 1%;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: auto;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 5px #7d7d7d4b;
+    transition: 0.5s;
     
 
 }
@@ -64,7 +69,6 @@ body {
     text-decoration: none;
     color: white;
     
-    
 }
 
 .link{
@@ -77,11 +81,122 @@ body {
     transition: all 0.3s ease-in;
     vertical-align: middle;
     margin: 10px 150px 20px;
-    
-    
 }
 
+.reseaux{
 
+    background-color: white;
+    width: 500px;
+    height: 140px;
+    display: flex;
+    margin: auto;
+    margin-top: auto;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 5px #7d7d7d4b;
+    transition: 0.5s;
+
+}
+
+.reseaux ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-left: 25px;
+    
+
+}
+
+.reseaux li{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    color: #7d7d7d8f;
+    
+
+}
+
+.fa {
+
+    font: normal normal normal normal 14px/1;
+    text-rendering: auto;
+    text-align: center;
+
+}
+
+.fa-facebook{
+
+    font-size: 26px !important;
+    color: #7d7d7d4b !important;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    transition: 0.5s !important;
+    
+
+}
+
+.fa-linkedin{
+
+    font-size: 26px !important;
+    color: #7d7d7d4b !important;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    transition: 0.5s !important;
+
+
+}
+
+.fa-twitter{
+
+    font-size: 26px !important;
+    color: #7d7d7d4b !important;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    transition: 0.5s !important;
+
+
+}
+
+.logo-facebook{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+
+}
+
+.logo-linked{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+
+}
+
+.logo-twitter{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+
+}
+
+.reseaux a{
+
+    text-decoration: none;
+    color: #7d7d7d;
+
+}
 
 
 
